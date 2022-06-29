@@ -1,7 +1,7 @@
 
 .box {
   inline-size: 300px;
-  color:  #7F8CFF;
+  color: #7f8cff;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   width: 375px;
   padding: 0 0 50px 0;
   margin: 0 0 50px 0;
-  color:  #6070FF;
+  color: #6070ff;
   font-weight: 800px;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .headline-section {
   width: 327px;
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700px;
   inline-size: 270px;
 }
