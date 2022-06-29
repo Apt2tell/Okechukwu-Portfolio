@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# My-Portfolio: This is a show of works I have completed for your perusal.
+# My-Portfolio:
 ### Here are lists of jobs that I have personal done to show off my skills and creativity
 
 ## Built With
@@ -9,5 +9,5 @@
 # Author
 👤 Author
 
-GitHub: @Apt2tell
-Twitter: @Excel4eva
+**GitHub:** @Apt2tell
+**Twitter:** @Excel4eva
