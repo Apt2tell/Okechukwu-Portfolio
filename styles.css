@@ -1,51 +1,51 @@
 
 .box {
-    inline-size: 300px;
-    color:  #7F8CFF;
+  inline-size: 300px;
+  color:  #7F8CFF;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header-section {
-    display: flex;
-    justify-content: space-between;
-    width: 375px;
-    padding: 0 0 50px 0;
-    margin: 0 0 50px 0;
-    color:  #6070FF;
-    font-weight: 800px;
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  padding: 0 0 50px 0;
+  margin: 0 0 50px 0;
+  color:  #6070FF;
+  font-weight: 800px;
 }
 
 .my-logo {
-    font-size: 18px;
-    font-weight: 700px;
+  font-size: 18px;
+  font-weight: 700px;
 }
 
 .headline-section {
-    width: 327px;
-    color: #172B4D;
-    font-weight: 700px;
-    inline-size: 270px;
-    }
+  width: 327px;
+  color: #172B4D;
+  font-weight: 700px;
+  inline-size: 270px;
+}
 
 .brief-bio {
-    inline-size: 320px;
-    font-size: 16px;
-    font-weight: normal;
+  inline-size: 320px;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .social-containers {
-    display: flex;
-    justify-content: space-between;
-    width: 327px;
+  display: flex;
+  justify-content: space-between;
+  width: 327px;
 }
     
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: stretch;
-    margin: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: stretch;
+  margin: 0 20px 0 20px;
 }
