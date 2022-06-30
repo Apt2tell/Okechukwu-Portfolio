@@ -1,0 +1,113 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.head-section {
+  display: flex;
+  width: 360px;
+  margin: 10px 0 40px 0;
+  top: 44px;
+  height: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 50px;
+  padding: 10px 10px;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  font-weight: bolder;
+  color: #6070ff;
+}
+
+.my-logo a {
+  text-decoration: none;
+}
+
+.menu {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin-right: 24px;
+  align-items: left;
+  color: #6070ff;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 6.4%;
+  padding-left: 6.4%;
+  background-image: url("Images/header-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 375px;
+  height: 100vh;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-top: 24%;
+  padding-right: 30%;
+  margin-bottom: 0;
+}
+
+.title .main-section {
+  padding-top: 241px;
+}
+
+.brief-bio {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 12px;
+  text-align: justify;
+}
+
+.connect-me {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 2px;
+  width: 117px;
+  height: 24px;
+  color: #7f8cff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration-line: none;
+  margin-top: 12px;
+}
+
+.social-containers {
+  list-style: none;
+  display: flex;
+  margin-left: -70px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+li {
+  margin: 0;
+  padding: 15px;
+}
