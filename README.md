@@ -13,8 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Apt2tell/My-Portfolio/blob/add-personal-bio/index.html)
-
+[Live Demo Link](https://htmlpreview.github.io/?https://github.com/Apt2tell/My-Portfolio/blob/add-personal-bio/index.html)
 
 
 
@@ -27,7 +26,7 @@
 - Twitter: [@Excel4eva](https://twitter.com/Excel4eva)
 
 
-## Show your support
+## Show your supportgit 
 
 Give a ⭐️ if you like this project!
 

@@ -1,30 +1,17 @@
 * {
-
   margin: 0 10px;
-
   padding: 0;
-
   box-sizing: border-box;
-
   font-family: 'Poppins', sans-serif;
-
 }
 
-html,
-
 body {
-
- overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
 .box {
   inline-size: 300px;
   color: #7f8cff;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
 }
 
 .header-section {
