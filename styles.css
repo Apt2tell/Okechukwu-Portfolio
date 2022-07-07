@@ -263,10 +263,10 @@ section {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #6070FF;
+  color: #6070ff;
   line-height: 16px;
   letter-spacing: 0.03em;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   width: 45px;
   height: 24px;
@@ -451,7 +451,7 @@ section {
   margin: 20px 5px 50px;
   padding-bottom: 10px;
   text-align: center;
-  color: #ebebff; 
+  color: #ebebff;
 }
 
 .input-field {
@@ -500,7 +500,7 @@ textarea {
   padding: 12px 16px;
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 8px; 
+  border-radius: 8px;
   margin-top: -150px;
   margin-left: 25px;
 }
