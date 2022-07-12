@@ -11,7 +11,7 @@ body {
 
 .head-section {
   display: flex;
-  margin: 40px 20px;
+  margin: 40px auto;
   width: 327px;
   height: 48px;
   align-items: center;
@@ -39,6 +39,7 @@ a {
 .main-section {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: flex-start;
   padding-right: 5.4%;
   padding-left: 5.4%;
@@ -46,15 +47,18 @@ a {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 375px;
-  height: 100vh;
+  height: 718px;
+  margin: 0 auto;
 }
 
 .title {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  display: flex;
-  align-items: center;
+
+  /* display: flex; */
+
+  /* align-items: center; */
   color: #172b4d;
   padding-top: 20%;
   padding-right: 30%;
@@ -65,28 +69,31 @@ a {
   padding-top: 241px;
 }
 
-.describe-me {
+.description {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 20px;
-  width: 100%;
+  margin-bottom: 10px;
+  width: 327px;
   height: 146px;
   color: #344563;
 }
 
 .connect-me {
-  gap: 12px;
-  height: 24px;
-  color: #7f8cff;
+  /* gap: 12px; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
-  text-decoration-line: none;
-  margin-top: 12px;
+  width: 117px;
+  height: 24px;
+  color: #7f8cff;
+
+  /* text-decoration-line: none; */
+
+  /* margin-top: 12px; */
 }
 
 .social-media {
@@ -106,7 +113,8 @@ section {
   display: grid;
   flex-direction: column;
   align-items: center;
-  margin: 30px 0;
+
+  /* margin: 30px 0; */
 }
 
 .work-container {
@@ -115,11 +123,8 @@ section {
   align-items: center;
   padding: 114px 24px;
   gap: 88px;
-  position: absolute;
+  margin: 0 auto;
   width: 375px;
-  height: 2788px;
-  left: 0;
-  top: 718px;
   background: #e5e5e5;
 }
 
@@ -325,6 +330,7 @@ section {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 375px;
+  padding: 0;
 }
 
 .about-top {
@@ -342,9 +348,9 @@ section {
   font-weight: 700;
   font-size: 50px;
   line-height: 52px;
-  margin: 70px 0 20px;
-  padding: 70px 0 40px;
-  width: 327px;
+  margin-top: 114px;
+  margin-bottom: 12px;
+  width: 100%;
   height: 101px;
   display: flex;
   align-items: center;
@@ -416,21 +422,23 @@ section {
 .contact-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   background-image: url(/images/contact-form-background.png), url(/images/blue-background.png);
-  background-size: 100% 100%;
+  background-size: cover;
   border: none;
-  border-radius: 80px 0 0 0;
   width: 375px;
   height: 850px;
 }
 
 .contact-headline {
-  margin-top: 140px;
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  margin-top: 103px;
+
+  /* margin-bottom: 25px; */
   line-height: 52px;
   color: #fff;
 }
@@ -443,40 +451,43 @@ section {
   line-height: 28px;
   width: 327px;
   height: 102px;
-  margin: 20px 5px 50px;
-  padding-bottom: 10px;
+
+  /* margin-bottom: 50px; */
   text-align: center;
   color: #ebebff;
 }
 
 .input-field {
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #172b4d;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 327px;
   height: 48px;
-  margin: 10px;
-}
-
-.input-text {
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  color: #172b4d;
-  padding-top: 7px;
-  margin: 7px 0 0 7px;
-  width: 275px;
 }
 
 textarea {
   width: 327px;
-  height: 160px;
-  background: #fff;
+  height: 170px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin-top: 10px;
+
+  /* margin-top: 10px; */
 }
 
 .textarea-message {
@@ -488,16 +499,14 @@ textarea {
   resize: none;
 }
 
-.get-it-btn {
-  align-items: flex-start;
-  width: 150px;
+.get-button {
+  width: 140px;
   height: 48px;
   padding: 12px 16px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin-top: -150px;
-  margin-left: 25px;
+  margin: 0 0 0 5px;
 }
 
 #get-it-txt {
