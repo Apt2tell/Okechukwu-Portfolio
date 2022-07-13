@@ -43,7 +43,7 @@ a {
   align-items: flex-start;
   padding-right: 5.4%;
   padding-left: 5.4%;
-  background-image: url(/images/header-shapes-mobile.png);
+  background-image: url("./images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 375px;
@@ -55,10 +55,6 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-
-  /* display: flex; */
-
-  /* align-items: center; */
   color: #172b4d;
   padding-top: 20%;
   padding-right: 30%;
@@ -75,13 +71,12 @@ a {
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 10px;
-  width: 327px;
+  width: 300px;
   height: 146px;
   color: #344563;
 }
 
 .connect-me {
-  /* gap: 12px; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -90,10 +85,6 @@ a {
   width: 117px;
   height: 24px;
   color: #7f8cff;
-
-  /* text-decoration-line: none; */
-
-  /* margin-top: 12px; */
 }
 
 .social-media {
@@ -113,8 +104,6 @@ section {
   display: grid;
   flex-direction: column;
   align-items: center;
-
-  /* margin: 30px 0; */
 }
 
 .work-container {
@@ -326,7 +315,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  background-image: url(/images/Base-about-myself.png);
+  background-image: url("./images/Base-about-myself.png");
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 375px;
@@ -424,7 +413,7 @@ section {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url(/images/contact-form-background.png), url(/images/blue-background.png);
+  background-image: url("./images/contact-form-background.png"), url("./images/blue-background.png");
   background-size: cover;
   border: none;
   width: 375px;
@@ -484,6 +473,7 @@ textarea {
   height: 170px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+
   /* margin-top: 10px; */
 }
 
