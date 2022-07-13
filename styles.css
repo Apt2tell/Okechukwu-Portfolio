@@ -41,8 +41,6 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding-right: 5.4%;
-  padding-left: 5.4%;
   background-image: url("./images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -84,12 +82,17 @@ a {
   line-height: 24px;
   width: 117px;
   height: 24px;
+  margin-left: 36px;
   color: #7f8cff;
+}
+
+.social-container {
+  margin-left: 36px;
 }
 
 .social-media {
   display: flex;
-  margin-left: -60px;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -110,7 +113,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 24px;
+  /* padding: 114px 24px; */
   gap: 88px;
   margin: 0 auto;
   width: 375px;
@@ -326,8 +329,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 10px;
-  margin: 0 10px;
   gap: 12px;
 }
 
@@ -337,9 +338,9 @@ section {
   font-weight: 700;
   font-size: 50px;
   line-height: 52px;
-  margin-top: 114px;
+  margin: 114px 24px 12px 24px;
   margin-bottom: 12px;
-  width: 100%;
+  width: 327px;
   height: 101px;
   display: flex;
   align-items: center;
@@ -353,6 +354,8 @@ section {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .resume-btn {
@@ -379,30 +382,33 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 237px;
+  height: 24px;
+  margin: 36px;
+}
+
+.frameworks p {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
 }
 
-.view-list-icon {
+.frameworks img {
   width: 24px;
   height: auto;
 }
+
 
 .frameworks .languages {
   border: none;
   margin: 24px 0;
 }
 
-.skills-arrow {
-  display: flex;
-  margin: 20px 0;
-  padding: 20px 0;
-  width: 300px;
-  border-top: 2px solid #dfe1e6;
-  border-bottom: 2px solid #dfe1e6;
+.skill-list .borders {
+ margin-left: 36px;
 }
+
 
 .frameworks .text {
   margin: 20px 0;
@@ -413,11 +419,14 @@ section {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url("./images/contact-form-background.png"), url("./images/blue-background.png");
+  background-image: url("./images/contact-form-background.png"), 
+  url("./images/blue-background.png");
   background-size: 100% 100%;
+  background-repeat: no-repeat, repeat;
   border: none;
   width: 375px;
-  height: 850px;
+  height: 779px;
+  margin-top: 100px;
 }
 
 .contact-headline {
