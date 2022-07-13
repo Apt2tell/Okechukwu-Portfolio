@@ -260,11 +260,12 @@
                     </p>
                     <form action="https://formspree.io/f/xrgjwdql" method="post">
                         <ul class="input-field">
-                            <li><input type="text" name="user_name" placeholder="user name"></li>
-                            <li><input type="email" placeholder="Email address"></li>
-                            <li><textarea class="textarea-message" name="user_message">Enter your message</textarea></li>
+                            <li><input type="text" name="user_name" maxlength="30" placeholder="user name" required></li>
+                            <li><input type="email" placeholder="Email address" required></li>
+                            <li><textarea class="textarea-message" maxlength="500" name="user_message" required>Enter your message</textarea></li>
+                            <li><button type="submit" class="get-button">Get It Touch</button></li>
                         </ul>
-                        <button class="get-button">Get It Touch</button>
+                        
                     </form>
                 </div>      
             </section>
