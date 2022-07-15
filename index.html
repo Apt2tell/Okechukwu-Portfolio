@@ -16,11 +16,11 @@
           <a href="#">My Logo</a>
         </span>
         <span class="material-icons menu">menu </span>
-        <ul class="list" >
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Control</li>
-        </ul> 
+        <nav class="list" >
+            <a href="#"><li>Portfolio</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Control</li></a>
+        </nav> 
     </header>
 
 
@@ -248,24 +248,23 @@
                     <a href="#"><img src="./images/caret-2.png" alt="image for the skills arrow"></a>
                 </div>
             </div>  
-            <div class="contact-container">
-                <h2 class="contact-headline">Contact me</h2>
-                <p id="job-request-text">If you have an application you are interested in developing, 
-                    a feature that you need built or a project that needs coding. 
-                    I’d love to help with it 
-                </p>
-                <form action="https://formspree.io/f/xrgjwdql" method="post">
-                    <ul class="input-field">
-                        <li><input type="text" name="user_name" maxlength="30" placeholder="user name" required id="name"></li>
-                        <li><input type="email" placeholder="Email address" required id="email"></li>
-                        <li><textarea class="textarea-message" maxlength="500" name="user_message" required id="text-book">Enter your message</textarea></li>
-                        <li><button type="submit" class="get-button">Get It Touch</button></li>
-                    </ul>  
-                </form>
-                <hr id="end-line">
-            </div>
         </section>
-      
+        <div class="contact-container">
+            <h2 class="contact-headline">Contact me</h2>
+            <p id="job-request-text">If you have an application you are interested in developing, 
+                a feature that you need built or a project that needs coding. 
+                I’d love to help with it 
+            </p>
+            <form action="https://formspree.io/f/xrgjwdql" method="post">
+                <ul class="input-field">
+                    <li><input type="text" name="user_name" maxlength="30" placeholder="user name" required id="name"></li>
+                    <li><input type="email" placeholder="Email address" required id="email"></li>
+                    <li><textarea class="textarea-message" maxlength="500" name="user_message" required id="text-book">Enter your message</textarea></li>
+                    <li><button type="submit" class="get-button">Get It Touch</button></li>
+                </ul>  
+            </form>
+            <hr id="end-line">
+        </div>
     </section>
 </body>
 
