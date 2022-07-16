@@ -554,14 +554,25 @@ textarea {
   .title {
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 60px;
     color: #172b4d;
 
     /* margin-top: 50px; */
     margin-bottom: 12px;
-    width: 550px;
+    padding-right: 0;
+    width: 63.38%;
   }
+
+  /* .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    padding-top: 20%;
+    padding-right: 0;
+    margin-bottom: 0;
+  } */
 
   .description {
     width: 63.8%;
@@ -572,8 +583,8 @@ textarea {
   }
 
   .work-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border: 1px solid #dfe1e6;
@@ -669,6 +680,18 @@ textarea {
       url("./images/contact-bg-desktop1.svg");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  #job-request-text {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 55%;
+    height: 102px;
+    text-align: center;
+    color: #ebebff;
   }
 
   .input-field {
