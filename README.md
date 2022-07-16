@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://htmlpreview.github.io/?https://github.com/Apt2tell/My-Portfolio/blob/add-personal-bio/index.html)
+[Live Demo Link](https://htmlpreview.github.io/?https://github.com/Apt2tell/Okechukwu-portfolio/main/index.html)
 
 
 
