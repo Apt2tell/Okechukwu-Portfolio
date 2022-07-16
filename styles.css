@@ -36,6 +36,12 @@ a {
   color: #6070ff;
 }
 
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 10px;
+}
+
 .main-section {
   display: flex;
   flex-direction: column;
@@ -326,13 +332,6 @@ section {
   padding: 0;
 }
 
-.about-top {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-}
-
 .about-header {
   font-family: "poppins", sans-serif;
   font-style: normal;
@@ -530,4 +529,187 @@ textarea {
   height: 5px;
   background-color: black;
   border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .head-section {
+    width: 70vw;
+  }
+
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70vw;
+    background-image: url("./images/header-bg-desktop.svg");
+
+    /* padding-left: 260px; */
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #172b4d;
+
+    /* margin-top: 50px; */
+    margin-bottom: 12px;
+    padding-right: 0;
+    width: 63.38%;
+  }
+
+  /* .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    padding-top: 20%;
+    padding-right: 0;
+    margin-bottom: 0;
+  } */
+
+  .description {
+    width: 63.8%;
+  }
+
+  .main-section .connect-me {
+    margin-left: 0;
+  }
+
+  .work-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    margin-top: 30px;
+
+    /* padding: 0 142px; */
+    width: 70vw;
+    font-size: 40px;
+  }
+
+  .message {
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .work-container {
+    gap: 0;
+    margin-top: -30px;
+    width: 90vw;
+  }
+
+  .about-header {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 25px;
+    margin-top: 90px;
+    margin-bottom: 12px;
+    margin-left: 25%;
+    width: 200px;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  .about-body {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-left: 25%;
+    width: 70%;
+  }
+
+  .about-section {
+    display: inline-flex;
+    flex-direction: row;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0 100px 0 0;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    width: 70vw;
+  }
+
+  .about-section .connect-me {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 117px;
+    height: 24px;
+    margin-left: 25%;
+    color: #7f8cff;
+  }
+
+  .social-container {
+    margin-left: 25%;
+  }
+
+  .borders img {
+    width: 50%;
+    height: auto;
+  }
+
+  .contact-container {
+    width: 70vw;
+    margin-top: -40px;
+    background-image:
+      url("./images/contact-bg-desktop2.svg"),
+      url("./images/contact-bg-desktop1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #job-request-text {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 55%;
+    height: 102px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .input-field {
+    align-items: center;
+  }
+}
+
+button:hover {
+  background: #396df2;
+  color: #fff;
+}
+
+nav {
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .list {
+    display: none;
+  }
 }
