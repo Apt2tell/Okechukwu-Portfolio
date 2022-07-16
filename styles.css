@@ -153,6 +153,7 @@ section {
   margin-top: 12px;
   width: 295px;
   height: 220px;
+  transition: transform 0.25s;
 }
 
 .second-block {
@@ -611,6 +612,10 @@ textarea {
     gap: 0;
     margin-top: -30px;
     width: 90vw;
+  }
+
+  .snapshot-img:hover {
+    transform: scale(1.1);
   }
 
   .about-header {
