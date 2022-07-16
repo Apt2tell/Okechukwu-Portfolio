@@ -699,6 +699,11 @@ textarea {
   }
 }
 
+button:hover {
+  background: #396df2;
+  color: #fff;
+}
+
 nav {
   list-style-type: none;
 }
