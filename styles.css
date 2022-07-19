@@ -519,6 +519,10 @@ textarea {
   padding-top: 15px;
 }
 
+.input-field label {
+  display: none;
+}
+
 #end-line {
   border: 2px solid black;
   width: 134px;
