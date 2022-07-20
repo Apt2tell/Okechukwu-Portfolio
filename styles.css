@@ -89,7 +89,7 @@ a {
   width: 117px;
   height: 24px;
   margin-left: 36px;
-  color: #7f8cff;
+  color: #0015d6;
 }
 
 .social-container {
@@ -210,14 +210,14 @@ section {
   padding: 8px 0;
   width: 100px;
   height: 32px;
-  color: #7a869a;
+  color: #344563;
 }
 
 .frame-item3 {
   padding: 8px 0;
   width: 29px;
   height: 32px;
-  color: #7a869a;
+  color: #344563;
 }
 
 .message {
@@ -246,7 +246,7 @@ section {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #6070ff;
+  color: #112a46;
   line-height: 16px;
   letter-spacing: 0.03em;
   background: #ebebff;
@@ -260,7 +260,7 @@ section {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #6070ff;
+  color: #112a46;
   line-height: 16px;
   letter-spacing: 0.03em;
   background: #ebebff;
@@ -274,7 +274,7 @@ section {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #6070ff;
+  color: #112a46;
   line-height: 16px;
   letter-spacing: 0.03em;
   background: #ebebff;
@@ -519,6 +519,10 @@ textarea {
   padding-top: 15px;
 }
 
+.input-field label {
+  display: none;
+}
+
 #end-line {
   border: 2px solid black;
   width: 134px;
@@ -642,7 +646,7 @@ textarea {
     width: 117px;
     height: 24px;
     margin-left: 25%;
-    color: #7f8cff;
+    color: #0015d6;
   }
 
   .social-container {
@@ -657,9 +661,11 @@ textarea {
   .contact-container {
     width: 70vw;
     margin-top: -40px;
-    background-image:
-      url("./images/contact-bg-desktop2.svg"),
-      url("./images/contact-bg-desktop1.svg");
+    background: #0015d6;
+    border-radius: 100px 0 0 0;
+    background-image: url("./images/contact-bg-desktop2.svg");
+
+    /* url("./images/contact-bg-desktop1.svg"); */
     background-size: cover;
     background-repeat: no-repeat;
   }
