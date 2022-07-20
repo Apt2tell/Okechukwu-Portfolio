@@ -615,7 +615,6 @@ textarea {
     color: #172b4d;
   }
 
-
   .about-body {
     font-family: "poppins", sans-serif;
     font-style: normal;
@@ -664,9 +663,9 @@ textarea {
     margin-top: -40px;
     background: #0015d6;
     border-radius: 100px 0 0 0;
-    background-image:
-      url("./images/contact-bg-desktop2.svg");
-      /* url("./images/contact-bg-desktop1.svg"); */
+    background-image: url("./images/contact-bg-desktop2.svg");
+
+    /* url("./images/contact-bg-desktop1.svg"); */
     background-size: cover;
     background-repeat: no-repeat;
   }
