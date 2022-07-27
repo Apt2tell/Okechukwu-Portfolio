@@ -7,16 +7,14 @@
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+
+  /* margin: 0 auto; */
+  background: #e5e5e5;
 }
 
 .head-section {
-  /* display: flex; */
-  margin: 40px auto;
-  width: 327px;
-  height: 48px;
-
-  /* align-items: center;
-  justify-content: space-between; */
+  width: 100vw;
+  background: #fff;
 }
 
 .topnav-a {
@@ -31,8 +29,6 @@ body {
 
 .my-logo {
   display: flex;
-
-  /* padding: 10px 10px; */
   width: 50%;
   height: 40px;
   left: 12px;
@@ -48,18 +44,39 @@ a {
   color: #6070ff;
 }
 
-.myLinks a {
-  color: #fff;
-  padding: 10px 16px;
-  font-size: 0.9rem;
-  display: block;
-  width: 30%;
-  height: 30%;
-}
-
 .topnav-b .menu {
   color: #fff;
   float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.topnav-b {
+  width: 100vw;
+  height: 812px;
+  overflow: hidden;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.myLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.myLinks a {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 60px;
+  padding-left: 28px;
 }
 
 .myLinks a:hover {
@@ -76,14 +93,17 @@ a {
 .main-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 0 24px;
   align-items: flex-start;
+  background: #fff;
   background-image: url("./images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 375px;
+  border-radius: 0 0 0 100px;
+  width: 100vw;
   height: 718px;
-  margin: 0 auto;
+  margin-bottom: 114px;
 }
 
 .title {
@@ -91,13 +111,9 @@ a {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
-  padding-top: 20%;
-  padding-right: 30%;
-  margin-bottom: 0;
-}
-
-.title .main-section {
-  padding-top: 241px;
+  padding-top: 128px;
+  padding-right: 24px;
+  margin-bottom: 12px;
 }
 
 .description {
@@ -105,7 +121,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 10px;
+  padding-bottom: 12px;
   width: 300px;
   height: 146px;
   color: #344563;
@@ -117,14 +133,14 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  width: 117px;
+  width: 100%;
   height: 24px;
-  margin-left: 36px;
   color: #0015d6;
+  padding-bottom: 12px;
 }
 
 .social-container {
-  margin-left: 36px;
+  margin: 0;
 }
 
 .social-media {
@@ -361,6 +377,19 @@ section {
   padding: 0;
 }
 
+#about {
+  padding: 0 24px;
+}
+
+#about .connect-me {
+  padding-left: 24px;
+  margin-right: 0;
+}
+
+#about .social-container {
+  padding-left: 24px;
+}
+
 .about-header {
   font-family: "poppins", sans-serif;
   font-style: normal;
@@ -452,9 +481,8 @@ section {
   background-size: 100% 100%;
   background-repeat: no-repeat, repeat;
   border: none;
-  width: 375px;
+  width: 100%;
   height: 779px;
-  margin-top: 100px;
 }
 
 .contact-headline {
@@ -508,8 +536,6 @@ textarea {
   height: 170px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-
-  /* margin-top: 10px; */
 }
 
 .textarea-message {
@@ -565,6 +591,7 @@ textarea {
 @media (min-width: 768px) {
   .head-section {
     width: 70vw;
+    margin: 0 auto;
   }
 
   .main-section {
@@ -574,6 +601,8 @@ textarea {
     align-items: flex-start;
     width: 70vw;
     background-image: url("./images/header-bg-desktop.svg");
+    margin: 0 auto;
+    padding-left: 10%;
   }
 
   .menu {
@@ -582,11 +611,6 @@ textarea {
 
   .topnav-b {
     display: none;
-    overflow: hidden;
-    background-color: #6070ff;
-    position: relative;
-    border-radius: 0 0 30px 0;
-    top: -40px;
   }
 
   .title {
@@ -595,8 +619,6 @@ textarea {
     font-size: 40px;
     line-height: 60px;
     color: #172b4d;
-
-    /* margin-top: 50px; */
     margin-bottom: 12px;
     padding-right: 0;
     width: 63.38%;
@@ -634,9 +656,9 @@ textarea {
   }
 
   .work-container {
-    gap: 0;
-    margin-top: -30px;
+    margin-top: 30px;
     width: 90vw;
+    gap: 88px;
   }
 
   .about-header {
@@ -675,6 +697,7 @@ textarea {
     margin-bottom: 0;
     padding-bottom: 40px;
     width: 70vw;
+    height: 718px;
   }
 
   .about-section .connect-me {
@@ -683,14 +706,14 @@ textarea {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    width: 117px;
+    width: 100%;
     height: 24px;
-    margin-left: 25%;
+    margin-left: 18%;
     color: #0015d6;
   }
 
   .social-container {
-    margin-left: 25%;
+    margin-left: 15%;
   }
 
   .borders img {
@@ -737,13 +760,5 @@ nav {
 @media (max-width: 768px) {
   .nav-list {
     display: none;
-  }
-
-  .topnav-b {
-    overflow: hidden;
-    background-color: #6070ff;
-    position: relative;
-    border-radius: 0 0 30px 0;
-    top: -40px;
   }
 }
