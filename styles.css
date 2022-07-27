@@ -57,6 +57,7 @@ a {
   overflow: hidden;
   background-color: #6070ff;
   mix-blend-mode: multiply;
+  backdrop-filter: blur(4px);
   position: absolute;
   top: 0;
   z-index: 1;
