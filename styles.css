@@ -7,8 +7,6 @@
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-
-  /* margin: 0 auto; */
   background: #e5e5e5;
 }
 
@@ -74,9 +72,10 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 40px;
   color: #fff;
-  margin-top: 60px;
+  width: 100vw;
+  margin-top: 50px;
   padding-left: 28px;
 }
 
@@ -368,13 +367,12 @@ section {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 24px;
   background-image: url("./images/Base-about-myself.png");
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 375px;
+  height: 1200px;
   padding: 0;
 }
 
@@ -397,7 +395,7 @@ section {
   font-weight: 700;
   font-size: 50px;
   line-height: 52px;
-  margin: 114px 24px 12px 24px;
+  margin-top: 90px;
   margin-bottom: 12px;
   width: 327px;
   height: 101px;
@@ -484,6 +482,8 @@ section {
   border: none;
   width: 100%;
   height: 779px;
+  z-index: 1;
+  margin-top: -200px;
 }
 
 .contact-headline {
@@ -662,6 +662,10 @@ textarea {
     gap: 88px;
   }
 
+  .skill-list {
+    margin-top: 90px;
+  }
+
   .about-header {
     font-family: "poppins", sans-serif;
     font-style: normal;
@@ -692,13 +696,12 @@ textarea {
   .about-section {
     display: inline-flex;
     flex-direction: row;
+    align-items: start;
     background: #fff;
     border: 1px solid #e5e5e5;
     border-radius: 0 100px 0 0;
-    margin-bottom: 0;
-    padding-bottom: 40px;
     width: 70vw;
-    height: 718px;
+    height: 850px;
   }
 
   .about-section .connect-me {
@@ -724,7 +727,6 @@ textarea {
 
   .contact-container {
     width: 70vw;
-    margin-top: -40px;
     background: #0015d6;
     border-radius: 100px 0 0 0;
     background-image: url("./images/contact-bg-desktop2.svg");
