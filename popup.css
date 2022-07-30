@@ -1,0 +1,166 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.popup-wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #c1c7d0;
+}
+
+.popup-content {
+  padding: 77px 124px;
+  width: 1556px;
+  background-color: #fff;
+}
+
+.popup-header {
+  height: 134px;
+}
+
+.header-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-left: 40px;
+}
+
+.menu {
+  color: #999;
+  font-size: 14px;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-info {
+    display: flex;
+    width: 400px;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+}
+
+.project-info .client {
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+}
+
+.project-info .backend-role {
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+}
+
+.year-label {
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+}
+
+.image-container img {
+   border-radius: 8px;
+    }
+.tonic-snapshoot-image img  {
+    width: 100vw;
+    }
+
+    .project-description {
+      display: flex;
+      width: 90vw;
+    }
+
+    .description-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;   
+        color: #344563;
+    }
+
+    .technologies {
+      display: flex;
+      padding-left: 10px ;
+    }
+
+    .technologies button {
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: 0.03em;
+      border-radius: 8px;
+      border: none;
+      background: #ebebff;
+      color: #396df2;
+      height: 24px;
+    }
+
+    .tech-group {
+     /* padding: 20px; */
+
+    }
+
+    .more-technologies {
+      display: flex;
+      padding: 10px;
+    }
+
+    .more-technologies button {
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0.03em;
+        border-radius: 8px;
+        border: none;
+        background: #ebebff;
+        color: #396df2;
+        height: 24px;
+    }
+
+    .button-html {
+        width: 45px;
+      }
+      
+      .button-css {
+        width: 45px;
+      }
+      
+      .button-javascript {
+        width: 89px;
+      }
+
+      .button-github {
+        width: 66px;
+      }
+
+      .live-buttons {
+       display: flex;
+       padding-top: 20px;
+       padding-left: 10px;
+      }
+
+      .live-buttons img {
+        width: 124px;
+        height: 40px;
+      }
+
+      .see-live-button {
+        color: #396df2;
+      }
+      
+      .see-source-button {
+        color: #396df2;
+    }
