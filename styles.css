@@ -572,13 +572,17 @@ textarea {
   padding-left: 16px;
 }
 
+.err_msg {
+  color: #f00;
+}
+
 .input-field #text-book {
   padding-left: 16px;
   padding-top: 15px;
 }
 
 .input-field label {
-  display: none;
+  display: block;
 }
 
 #end-line {
