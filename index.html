@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./modal-popup.css">
 </head>
 <body>
 
@@ -86,120 +88,48 @@
         </div>
     </section>
 
+    <!-- here goes the work section  -->
+    
+
+    <!-- popup menu begins here -->
+    <div class="popup-window" id="popup">
+        <section class="popup">
+          <div class="popup-header">
+            <h2 class="popup-project-title" id="popup-project-title"></h2>
+            <span class="close">&times;</span>
+          </div>
+          <div class="popup-project-info" id="project-info"></div>
+          <div id="project-image-holder">
+            <img
+              src="#"
+              alt="Tonic project screenshot"
+              class="popup-project-image"
+              id="popup-project-image"
+            />
+          </div>
+          <div class="popup-project-details">
+            <div class="column-left">
+              <p class="popup-project-description" id="project-description"></p>
+            </div>
+            <div class="column-right">
+              <div class="popup-project-stack" id="popup-project-stack"></div>
+              <div class="popup-project-buttons">
+                <button type="button" id="see-live-btn" onclick="">
+                  See Live
+                </button>
+                <button type="button" id="see-source-btn" onclick="">
+                  See Source
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
     <!--middle section-->
-
-    <section class="work-container">
-        <div class="work-card" id="portfolio">
-            <img 
-                src="./images/SnapshootPortfolio.png" 
-                alt="the snapshot backshoot background one" 
-                class="snapshot-img">
-
-            <div class="second-block"> 
-                <div class="primary-text">
-                    <h1 class="work-title">Tonic</h1>
-                    <ul class="work-frame">
-                        <li class="frame-item1">CANOPY</li>
-                        <li class="frame-item2">Back End Dev</li>
-                        <li class="frame-item3">2015</li>
-                    </ul>
-                    <p class="message">daily section of privately personalized reads; no accounts or sign-ups required</p>
-                </div>
-                <div class="tags">
-                    <button class="button-html">html</button>
-                    <button class="button-css">css</button>
-                    <button class="button-javascript">javascript</button>
-                </div>
-                <div class="action">
-                    <button class="project-btn project-text">See Project</button>
-                </div>
-            </div>
-        </div>
-
-        <section >
-            <div class="work-card">
-                <img 
-                    src="./images/SnapshootPortfolio2.png" 
-                    alt="the snapshot backshoot background two" 
-                    class="snapshot-img">
-    
-                <div class="second-block"> 
-                    <div class="primary-text">
-                        <h1 class="work-title">Multi-Post Stories</h1>
-                        <ul class="work-frame">
-                            <li class="frame-item1">CANOPY</li>
-                            <li class="frame-item2">Back End Dev</li>
-                            <li class="frame-item3">2015</li>
-                        </ul>
-                        <p class="message">daily section of privately personalized reads; no accounts or sign-ups required</p>
-                        <div class="tags">
-                            <button class="button-html">html</button>
-                            <button class="button-css">css</button>
-                            <button class="button-javascript">javascript</button>
-                        </div>
-                        <div class="action">
-                            <button class="project-btn project-text">See Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="work-card">
-                <img 
-                    src="./images/SnapshootPortfolio-3.png" 
-                    alt="the snapshot backshoot background three" 
-                    class="snapshot-img">
-    
-                <div class="second-block"> 
-                    <div class="primary-text">
-                        <h1 class="work-title">Tonic</h1>
-                        <ul class="work-frame">
-                            <li class="frame-item1">CANOPY</li>
-                            <li class="frame-item2">Back End Dev</li>
-                            <li class="frame-item3">2015</li>
-                        </ul>
-                        <p class="message">daily section of privately personalized reads; no accounts or sign-ups required</p>
-                    </div>
-                    <div class="tags">
-                        <button class="button-html">html</button>
-                        <button class="button-css">css</button>
-                        <button class="button-javascript">javascript</button>
-                    </div>
-                    <div class="action">
-                        <button class="project-btn project-text">See Project</button>
-                    </div>
-                </div>
-        </section>
-
-        <section class="work-card" >
-            <!-- <div> -->
-                <img 
-                    src="./images/Snapshoot-Portfolio-4.png" 
-                    alt="the snapshot backshoot background four" 
-                    class="snapshot-img">
-
-                <div class="second-block primary-text"> 
-                    <!-- <div class=""> -->
-                    <h1 class="work-title">Multi-Post Stories</h1>
-                    <ul class="work-frame">
-                        <li class="frame-item1">CANOPY</li>
-                        <li class="frame-item2">Back End Dev</li>
-                        <li class="frame-item3">2015</li>
-                    </ul>
-                    <p class="message">daily section of privately personalized reads; no accounts or sign-ups required</p>
-                    <div class="tags">
-                        <button class="button-html">html</button>
-                        <button class="button-css">css</button>
-                        <button class="button-javascript">javascript</button>
-                    </div>
-                    <div class="action">
-                        <button class="project-btn project-text">See Project</button>
-                    </div>
-                </div>
-            <!-- </div> -->
-        </section>
-
+        <section class="work-container">
+                <div class="work-card"></div>
+                
         <section class="about-section">
             <div id="about">
                 <h2 class="about-header">About Myself</h2>
@@ -269,7 +199,9 @@
                 a feature that you need built or a project that needs coding. 
                 I’d love to help with it 
             </p>
+
             <!-- here's begins the contact form -->
+
             <form action="https://formspree.io/f/xrgjwdql" method="post">
                 <ul class="input-field">
                     <li><label for="name"></label>
@@ -287,6 +219,7 @@
     </section>
     <script src="./menu.js"></script>
     <script src="./check-mail.js"></script>
+    <script src="./popup.js"></script>
 </body>
 
 </html>
