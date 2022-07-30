@@ -6,7 +6,6 @@ toggleListMenu();
 
 // here begins JavaSrcript for the modal popup window
 
-
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-closed-button]');
 const overlay = document.getElementById('overlay');
