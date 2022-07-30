@@ -181,8 +181,8 @@ section {
 
 .work-card {
   box-sizing: border-box;
+  flex-direction: row;
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 16px;
   gap: 12px;
@@ -233,7 +233,7 @@ section {
 .work-frame {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -332,6 +332,7 @@ section {
 
 .action {
   display: flex;
+  /* flex-direction: column; */
   align-items: center;
   height: 72px;
   width: 295px;
@@ -344,7 +345,7 @@ section {
   padding: 12px;
   gap: 10px;
   background: none;
-  width: 150px;
+  width: 130px;
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -639,9 +640,9 @@ textarea {
 
   .work-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin-top: 30px;
@@ -661,6 +662,8 @@ textarea {
   }
 
   .work-container {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
     width: 90vw;
     gap: 88px;
