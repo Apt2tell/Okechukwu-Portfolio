@@ -37,7 +37,6 @@
   transform: scale(1.1);
 }
 
-
 .popup {
   display: flex;
   flex-direction: column;
@@ -65,7 +64,7 @@
   font-weight: bold;
 }
 
-popup-project-buttons {
+.popup-project-buttons {
   display: flex;
   gap: 20px;
 }
@@ -125,13 +124,8 @@ popup-project-buttons {
   gap: 10px;
 }
 
-.popup-project-buttons {
-  display: flex;
-  gap: 20px;
-}
-
 .live-buttons {
- display: flex;
+  display: flex;
 }
 
 .btn-container-flex {
